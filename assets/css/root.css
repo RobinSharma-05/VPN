@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700&display=swap');
+
+:root {
+    --fs-xxl: 50px;
+    --fs-xl: 35px;
+    --fs-xlg: 25px;
+    --fs-lg: 20px;
+    --fs-md: 18px;
+    --fs-sm: 16px;
+    --fs-xs: 14px;
+
+    --font-weight-lg: 700;
+    --font-weight-md: 500;
+    --font-weight-sm: 400;
+
+    --font-family: 'rubik', sans-serif;
+}
+
+.ff-rubik {
+    font-family: var(--font-family);
+}
+
+.fw-700 {
+    font-weight: var(--font-weight-lg);
+}
+
+.fw-500 {
+    font-weight: var(--font-weight-md);
+}
+
+.fw-400 {
+    font-weight: var(--font-weight-sm);
+}
+
+.fs-50 {
+    font-size: var(--fs-xxl);
+}
+
+.fs-35 {
+    font-size: var(--fs-xl);
+}
+
+.fs-25 {
+    font-size: var(--fs-xlg);
+}
+
+.fs-20 {
+    font-size: var(--fs-lg);
+}
+
+.fs-18 {
+    font-size: var(--fs-md);
+}
+
+.fs-16 {
+    font-size: var(--fs-sm);
+}
+
+.fs-14 {
+    font-size: var(--fs-xs);
+}
+
+@media (max-width:992px) {
+    :root {
+        --fs-xxl: 46px;
+        --fs-xl: 34px;
+        --fs-xlg: 25px;
+        --fs-lg: 20px;
+        --fs-md: 18px;
+        --fs-sm: 16px;
+        --fs-xs: 14px;
+    }
+}
+
+@media (max-width:768px) {
+    :root {
+        --fs-xxl: 44px;
+        --fs-xl: 33px;
+        --fs-xlg: 24px;
+        --fs-lg: 20px;
+        --fs-md: 16px;
+        --fs-sm: 14px;
+        --fs-xs: 12px;
+    }
+}
+
+@media (max-width:576px) {
+    :root {
+        --fs-xxl: 42px;
+        --fs-xl: 32px;
+        --fs-xlg: 24px;
+        --fs-lg: 20px;
+        --fs-md: 14px;
+        --fs-sm: 12px;
+        --fs-xs: 10px;
+    }
+}
