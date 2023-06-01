@@ -20,6 +20,7 @@
 
 <body>
 
+
     <nav class="navbar navbar-expand-lg mb-lg-5">
         <div class="container">
             <a class="navbar-brand d-flex align-items-center gap-2" href="#">
@@ -32,27 +33,27 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0 mx-auto gap-3 align-items-center">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 mx-auto gap-4 align-items-center">
                     <li class="nav-item">
-                        <a class="nav-link ff-rubik fw-400 fs-16" href="#">About</a>
+                        <a class="color-grey ff-rubik fw-400 fs-16 nav-link-hover" href="#">About</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link ff-rubik fw-400 fs-16" href="#">Features</a>
+                        <a class="color-grey ff-rubik fw-400 fs-16 nav-link-hover" href="#">Features</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link ff-rubik fw-400 fs-16" href="#">Pricing</a>
+                        <a class="color-grey ff-rubik fw-400 fs-16 nav-link-hover" href="#">Pricing</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link ff-rubik fw-400 fs-16" href="#">Testimonials</a>
+                        <a class="color-grey ff-rubik fw-400 fs-16 nav-link-hover" href="#">Testimonials</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link ff-rubik fw-400 fs-16" href="#">Help</a>
+                        <a class="color-grey ff-rubik fw-400 fs-16 nav-link-hover" href="#">Help</a>
                     </li>
                 </ul>
                 <div>
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0 gap-3 align-items-center">
                         <li class="nav-item">
-                            <a class="nav-link ff-rubik fw-400 fs-16" href="#">Sign In</a>
+                            <a class="nav-link ff-rubik fw-400 fs-16 nav-link-hover" href="#">Sign In</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link btn-1 ff-rubik fw-400 fs-16" href="#">Sign Up</a>
@@ -84,7 +85,7 @@
                     </div>
                 </div>
                 <div class="col-lg-6 mt-5 mb-5">
-                    <img src="./assets/images/png/big-1.png" alt="big-1" class="position_absolute max_w_612">
+                    <img src="./assets/images/png/big-1.png" alt="big-1" class="position_absolute">
                 </div>
             </div>
         </div>
@@ -94,7 +95,7 @@
         <div class="container">
             <div class="row border-card mt-5">
                 <div class="col-lg-4 ps-0">
-                    <div class="d-flex align-items-center gap-36">
+                    <div class="d-flex align-items-center gap-36 justify-content-center">
                         <span class="circle">
                             <svg width="17" height="19" viewBox="0 0 17 19" fill="none"
                                 xmlns="http://www.w3.org/2000/svg">
@@ -107,11 +108,12 @@
                             <h1 class="ff-rubik fw-700 fs-25">90+</h1>
                             <p class="ff-rubik fw-400 fs-20 color-grey">Users</p>
                         </div>
-                        <div class="line-1"></div>
+                        <div class="line-1 d-none d-lg-block"></div>
                     </div>
                 </div>
                 <div class="col-lg-4 ps-0">
-                    <div class="d-flex align-items-center gap-36 justify-content-lg-center">
+                    <div
+                        class="d-flex align-items-center gap-36 justify-content-lg-center justify-content-center padding-margin">
                         <span class="circle">
                             <svg width="14" height="21" viewBox="0 0 14 21" fill="none"
                                 xmlns="http://www.w3.org/2000/svg">
@@ -124,11 +126,11 @@
                             <h1 class="ff-rubik fw-700 fs-25">30+</h1>
                             <p class="ff-rubik fw-400 fs-20 color-grey">Locations</p>
                         </div>
-                        <div class="line-2"></div>
+                        <div class="line-2 d-none d-lg-block"></div>
                     </div>
                 </div>
                 <div class="col-lg-4 ps-0">
-                    <div class="d-flex align-items-center gap-36 mt-20 justify-content-lg-center">
+                    <div class="d-flex align-items-center gap-36  mt-20 justify-content-center padding">
                         <span class="circle">
                             <svg width="21" height="19" viewBox="0 0 21 19" fill="none"
                                 xmlns="http://www.w3.org/2000/svg">
@@ -151,9 +153,10 @@
         <div class="container">
             <div class="row mt-5 pt-5">
                 <div class="col-lg-7">
-                    <img src="./assets/images/png/big-2.png" alt="big-2" class="w-75">
+                    <div class="d-flex justify-content-center"><img src="./assets/images/png/big-2.png" alt="big-2"
+                            class="w_75 w-md-100"></div>
                 </div>
-                <div class="col-lg-5 mt-5">
+                <div class="col-lg-5 mt-5 justify-content-center d-inline-grid">
                     <div>
                         <h1 class="ff-rubik fw-500 fs-35 mx-383 mb-4">We Provide Many Features You Can Use</h1>
                         <p class="ff-rubik fw-400 fs-16 mx-430 mb-4 color-grey">You can explore the features that we
@@ -165,58 +168,60 @@
                             feature.
                         </p>
                     </div>
-                    <div class="d-flex align-items-center gap-2 mb-3">
-                        <span>
-                            <svg width="21" height="21" viewBox="0 0 21 21" fill="none"
-                                xmlns="http://www.w3.org/2000/svg">
-                                <path
-                                    d="M10.1216 0.549316C4.60758 0.549316 0.121582 5.03532 0.121582 10.5493C0.121582 16.0633 4.60758 20.5493 10.1216 20.5493C15.6356 20.5493 20.1216 16.0633 20.1216 10.5493C20.1216 5.03532 15.6356 0.549316 10.1216 0.549316ZM8.12258 14.9623L5.11703 11.9632C4.72628 11.5733 4.72549 10.9405 5.11527 10.5496V10.5496C5.50529 10.1585 6.13859 10.1578 6.52951 10.548L8.12058 12.1363L12.7076 7.54932C13.098 7.15885 13.7311 7.15885 14.1216 7.54932V7.54932C14.512 7.93978 14.512 8.57285 14.1216 8.96332L8.12258 14.9623Z"
-                                    fill="#2FAB73" />
-                            </svg>
-                        </span>
+                    <ul class="ps-0">
+                        <li class="d-flex align-items-center gap-2 mb-3">
+                            <span>
+                                <svg width="21" height="21" viewBox="0 0 21 21" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M10.1216 0.549316C4.60758 0.549316 0.121582 5.03532 0.121582 10.5493C0.121582 16.0633 4.60758 20.5493 10.1216 20.5493C15.6356 20.5493 20.1216 16.0633 20.1216 10.5493C20.1216 5.03532 15.6356 0.549316 10.1216 0.549316ZM8.12258 14.9623L5.11703 11.9632C4.72628 11.5733 4.72549 10.9405 5.11527 10.5496V10.5496C5.50529 10.1585 6.13859 10.1578 6.52951 10.548L8.12058 12.1363L12.7076 7.54932C13.098 7.15885 13.7311 7.15885 14.1216 7.54932V7.54932C14.512 7.93978 14.512 8.57285 14.1216 8.96332L8.12258 14.9623Z"
+                                        fill="#2FAB73" />
+                                </svg>
+                            </span>
 
-                        <div class="ff-rubik fw-400 fs-14 color-grey">Powerfull online protection.</div>
+                            <div class="ff-rubik fw-400 fs-14 color-grey">Powerfull online protection.</div>
 
-                    </div>
-                    <div class="d-flex align-items-center gap-2 mb-3">
-                        <span>
-                            <svg width="21" height="21" viewBox="0 0 21 21" fill="none"
-                                xmlns="http://www.w3.org/2000/svg">
-                                <path
-                                    d="M10.1216 0.549316C4.60758 0.549316 0.121582 5.03532 0.121582 10.5493C0.121582 16.0633 4.60758 20.5493 10.1216 20.5493C15.6356 20.5493 20.1216 16.0633 20.1216 10.5493C20.1216 5.03532 15.6356 0.549316 10.1216 0.549316ZM8.12258 14.9623L5.11703 11.9632C4.72628 11.5733 4.72549 10.9405 5.11527 10.5496V10.5496C5.50529 10.1585 6.13859 10.1578 6.52951 10.548L8.12058 12.1363L12.7076 7.54932C13.098 7.15885 13.7311 7.15885 14.1216 7.54932V7.54932C14.512 7.93978 14.512 8.57285 14.1216 8.96332L8.12258 14.9623Z"
-                                    fill="#2FAB73" />
-                            </svg>
-                        </span>
+                        </li>
+                        <li class="d-flex align-items-center gap-2 mb-3">
+                            <span>
+                                <svg width="21" height="21" viewBox="0 0 21 21" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M10.1216 0.549316C4.60758 0.549316 0.121582 5.03532 0.121582 10.5493C0.121582 16.0633 4.60758 20.5493 10.1216 20.5493C15.6356 20.5493 20.1216 16.0633 20.1216 10.5493C20.1216 5.03532 15.6356 0.549316 10.1216 0.549316ZM8.12258 14.9623L5.11703 11.9632C4.72628 11.5733 4.72549 10.9405 5.11527 10.5496V10.5496C5.50529 10.1585 6.13859 10.1578 6.52951 10.548L8.12058 12.1363L12.7076 7.54932C13.098 7.15885 13.7311 7.15885 14.1216 7.54932V7.54932C14.512 7.93978 14.512 8.57285 14.1216 8.96332L8.12258 14.9623Z"
+                                        fill="#2FAB73" />
+                                </svg>
+                            </span>
 
-                        <div class="ff-rubik fw-400 fs-14 color-grey">Internet without borders.</div>
+                            <div class="ff-rubik fw-400 fs-14 color-grey">Internet without borders.</div>
 
-                    </div>
-                    <div class="d-flex align-items-center gap-2 mb-3">
-                        <span>
-                            <svg width="21" height="21" viewBox="0 0 21 21" fill="none"
-                                xmlns="http://www.w3.org/2000/svg">
-                                <path
-                                    d="M10.1216 0.549316C4.60758 0.549316 0.121582 5.03532 0.121582 10.5493C0.121582 16.0633 4.60758 20.5493 10.1216 20.5493C15.6356 20.5493 20.1216 16.0633 20.1216 10.5493C20.1216 5.03532 15.6356 0.549316 10.1216 0.549316ZM8.12258 14.9623L5.11703 11.9632C4.72628 11.5733 4.72549 10.9405 5.11527 10.5496V10.5496C5.50529 10.1585 6.13859 10.1578 6.52951 10.548L8.12058 12.1363L12.7076 7.54932C13.098 7.15885 13.7311 7.15885 14.1216 7.54932V7.54932C14.512 7.93978 14.512 8.57285 14.1216 8.96332L8.12258 14.9623Z"
-                                    fill="#2FAB73" />
-                            </svg>
-                        </span>
+                        </li>
+                        <li class="d-flex align-items-center gap-2 mb-3">
+                            <span>
+                                <svg width="21" height="21" viewBox="0 0 21 21" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M10.1216 0.549316C4.60758 0.549316 0.121582 5.03532 0.121582 10.5493C0.121582 16.0633 4.60758 20.5493 10.1216 20.5493C15.6356 20.5493 20.1216 16.0633 20.1216 10.5493C20.1216 5.03532 15.6356 0.549316 10.1216 0.549316ZM8.12258 14.9623L5.11703 11.9632C4.72628 11.5733 4.72549 10.9405 5.11527 10.5496V10.5496C5.50529 10.1585 6.13859 10.1578 6.52951 10.548L8.12058 12.1363L12.7076 7.54932C13.098 7.15885 13.7311 7.15885 14.1216 7.54932V7.54932C14.512 7.93978 14.512 8.57285 14.1216 8.96332L8.12258 14.9623Z"
+                                        fill="#2FAB73" />
+                                </svg>
+                            </span>
 
-                        <div class="ff-rubik fw-400 fs-14 color-grey">Supercharged VPN</div>
+                            <div class="ff-rubik fw-400 fs-14 color-grey">Supercharged VPN</div>
 
-                    </div>
-                    <div class="d-flex align-items-center gap-2">
-                        <span>
-                            <svg width="21" height="21" viewBox="0 0 21 21" fill="none"
-                                xmlns="http://www.w3.org/2000/svg">
-                                <path
-                                    d="M10.1216 0.549316C4.60758 0.549316 0.121582 5.03532 0.121582 10.5493C0.121582 16.0633 4.60758 20.5493 10.1216 20.5493C15.6356 20.5493 20.1216 16.0633 20.1216 10.5493C20.1216 5.03532 15.6356 0.549316 10.1216 0.549316ZM8.12258 14.9623L5.11703 11.9632C4.72628 11.5733 4.72549 10.9405 5.11527 10.5496V10.5496C5.50529 10.1585 6.13859 10.1578 6.52951 10.548L8.12058 12.1363L12.7076 7.54932C13.098 7.15885 13.7311 7.15885 14.1216 7.54932V7.54932C14.512 7.93978 14.512 8.57285 14.1216 8.96332L8.12258 14.9623Z"
-                                    fill="#2FAB73" />
-                            </svg>
-                        </span>
+                        </li>
+                        <li class="d-flex align-items-center gap-2">
+                            <span>
+                                <svg width="21" height="21" viewBox="0 0 21 21" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M10.1216 0.549316C4.60758 0.549316 0.121582 5.03532 0.121582 10.5493C0.121582 16.0633 4.60758 20.5493 10.1216 20.5493C15.6356 20.5493 20.1216 16.0633 20.1216 10.5493C20.1216 5.03532 15.6356 0.549316 10.1216 0.549316ZM8.12258 14.9623L5.11703 11.9632C4.72628 11.5733 4.72549 10.9405 5.11527 10.5496V10.5496C5.50529 10.1585 6.13859 10.1578 6.52951 10.548L8.12058 12.1363L12.7076 7.54932C13.098 7.15885 13.7311 7.15885 14.1216 7.54932V7.54932C14.512 7.93978 14.512 8.57285 14.1216 8.96332L8.12258 14.9623Z"
+                                        fill="#2FAB73" />
+                                </svg>
+                            </span>
 
-                        <div class="ff-rubik fw-400 fs-14 color-grey">No specific time limits.</div>
+                            <div class="ff-rubik fw-400 fs-14 color-grey">No specific time limits.</div>
 
-                    </div>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </div>
@@ -472,15 +477,15 @@
 
             <div id="wrap">
                 <ul id="slider" class="d-flex align-items-center">
-                    <li class="slide-item"><img src="./assets/images/png/netflix.png" alt="画像" class="w-100">
+                    <li class="slide-item"><img src="./assets/images/png/netflix.png" alt="画像" class="w-75">
                     </li>
-                    <li class="slide-item"><img src="./assets/images/png/reddit.png" alt="画像" class="w-100">
+                    <li class="slide-item"><img src="./assets/images/png/reddit.png" alt="画像" class="w-75">
                     </li>
-                    <li class="slide-item"><img src="./assets/images/png/amazon.png" alt="画像" class="w-100">
+                    <li class="slide-item"><img src="./assets/images/png/amazon.png" alt="画像" class="w-75">
                     </li>
-                    <li class="slide-item"><img src="./assets/images/png/discord.png" alt="画像" class="w-100">
+                    <li class="slide-item"><img src="./assets/images/png/discord.png" alt="画像" class="w-75">
                     </li>
-                    <li class="slide-item"><img src="./assets/images/png/spotify.png" alt="画像" class="w-100">
+                    <li class="slide-item"><img src="./assets/images/png/spotify.png" alt="画像" class="w-75">
                     </li>
                 </ul>
             </div>
@@ -629,10 +634,44 @@
                         unique features and has high
                         security.
                     </p>
-                    <div class="d-flex align-items-center gap-3 mb-3">
-                        <img src="./assets/images/png/Facebook.png" alt="Facebook">
-                        <img src="./assets/images/png/Twitter.png" alt="Twitter">
-                        <img src="./assets/images/png/Instagram.png" alt="Instagram">
+                    <div class="d-flex align-items-center mb-3">
+
+                        <a href="" class="hover-effect">
+                            <svg width="70" height="70" viewBox="15 0 50 50" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <g>
+                                    <circle cx="34.7999" cy="21.7999" r="16.7999" fill="#F53838" />
+                                </g>
+                                <path
+                                    d="M34.8 5C25.5215 5 18 12.5215 18 21.8C18 31.0785 25.5215 38.6 34.8 38.6C44.0785 38.6 51.6 31.0785 51.6 21.8C51.6 12.5215 44.0785 5 34.8 5ZM38.7795 16.6095H36.2543C35.955 16.6095 35.6225 17.0033 35.6225 17.5265V19.35H38.7813L38.3035 21.9505H35.6225V29.7573H32.6423V21.9505H29.9385V19.35H32.6423V17.8205C32.6423 15.626 34.1648 13.8428 36.2543 13.8428H38.7795V16.6095Z"
+                                    fill="white" />
+                            </svg>
+                        </a>
+
+                        <a href="" class="hover-effect">
+                            <svg width="71" height="71" viewBox="15 0 51 51" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <g>
+                                    <circle cx="35.4" cy="22.3805" r="16.7999" fill="#F53838" />
+                                </g>
+                                <path
+                                    d="M35.4001 5.58057C26.1216 5.58057 18.6001 13.1021 18.6001 22.3806C18.6001 31.6591 26.1216 39.1806 35.4001 39.1806C44.6786 39.1806 52.2001 31.6591 52.2001 22.3806C52.2001 13.1021 44.6786 5.58057 35.4001 5.58057ZM42.2339 19.3426C42.2409 19.4861 42.2426 19.6296 42.2426 19.7696C42.2426 24.1446 38.9159 29.1863 32.8294 29.1863C31.0309 29.1893 29.2698 28.6728 27.7578 27.6988C28.0151 27.7303 28.2793 27.7426 28.5471 27.7426C30.0976 27.7426 31.5239 27.2158 32.6561 26.3268C31.9661 26.3133 31.2975 26.0848 30.7435 25.6732C30.1896 25.2617 29.7778 24.6875 29.5656 24.0308C30.0611 24.125 30.5716 24.1053 31.0583 23.9731C30.3094 23.8216 29.6359 23.4158 29.1521 22.8245C28.6682 22.2331 28.4038 21.4926 28.4036 20.7286V20.6883C28.8498 20.9351 29.3608 21.0856 29.9033 21.1031C29.2012 20.6357 28.7042 19.9177 28.5139 19.0961C28.3236 18.2744 28.4544 17.411 28.8796 16.6826C29.7108 17.7046 30.7473 18.5406 31.9221 19.1366C33.0969 19.7326 34.3837 20.0752 35.6994 20.1423C35.5321 19.4324 35.6041 18.687 35.9041 18.0222C36.2042 17.3574 36.7154 16.8103 37.3585 16.466C38.0015 16.1218 38.7403 15.9996 39.4599 16.1185C40.1796 16.2374 40.8397 16.5907 41.3379 17.1236C42.0784 16.9771 42.7886 16.7054 43.4379 16.3203C43.191 17.0871 42.6743 17.7381 41.9836 18.1526C42.6396 18.0736 43.2801 17.8972 43.8841 17.6293C43.4405 18.2941 42.8816 18.8743 42.2339 19.3426Z"
+                                    fill="white" />
+                            </svg>
+                        </a>
+
+                        <a href="" class="hover-effect">
+                            <svg width="70" height="71" viewBox="15 0 50 51" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <g>
+                                    <circle cx="35.0001" cy="22.3805" r="16.7999" fill="#F53838" />
+                                </g>
+                                <path
+                                    d="M40.2502 22.3806C40.2502 23.773 39.6971 25.1083 38.7125 26.0929C37.7279 27.0774 36.3926 27.6306 35.0002 27.6306C33.6078 27.6306 32.2725 27.0774 31.2879 26.0929C30.3033 25.1083 29.7502 23.773 29.7502 22.3806C29.7502 22.0813 29.7817 21.7891 29.8359 21.5056H28.0002V28.5003C28.0002 28.9868 28.3939 29.3806 28.8804 29.3806H41.1217C41.3549 29.3801 41.5783 29.2872 41.743 29.1221C41.9077 28.9571 42.0002 28.7335 42.0002 28.5003V21.5056H40.1644C40.2187 21.7891 40.2502 22.0813 40.2502 22.3806ZM35.0002 25.8806C35.4599 25.8805 35.9152 25.7898 36.3399 25.6137C36.7646 25.4377 37.1504 25.1797 37.4754 24.8546C37.8004 24.5294 38.0582 24.1434 38.234 23.7186C38.4099 23.2938 38.5003 22.8386 38.5002 22.3788C38.5001 21.9191 38.4094 21.4639 38.2334 21.0392C38.0573 20.6145 37.7994 20.2286 37.4742 19.9036C37.149 19.5786 36.763 19.3208 36.3382 19.145C35.9135 18.9691 35.4582 18.8787 34.9984 18.8788C34.07 18.8791 33.1796 19.2481 32.5232 19.9048C31.8668 20.5615 31.4982 21.4521 31.4984 22.3806C31.4987 23.3091 31.8677 24.1994 32.5244 24.8558C33.1812 25.5122 34.0717 25.8808 35.0002 25.8806ZM39.2002 18.7056H41.2984C41.4378 18.7056 41.5716 18.6503 41.6703 18.5519C41.769 18.4535 41.8247 18.32 41.8252 18.1806V16.0823C41.8252 15.9426 41.7697 15.8086 41.6709 15.7098C41.5721 15.6111 41.4382 15.5556 41.2984 15.5556H39.2002C39.0605 15.5556 38.9265 15.6111 38.8277 15.7098C38.7289 15.8086 38.6734 15.9426 38.6734 16.0823V18.1806C38.6752 18.4693 38.9114 18.7056 39.2002 18.7056ZM35.0002 5.58057C30.5446 5.58057 26.2714 7.35056 23.1208 10.5012C19.9702 13.6518 18.2002 17.9249 18.2002 22.3806C18.2002 26.8362 19.9702 31.1094 23.1208 34.26C26.2714 37.4106 30.5446 39.1806 35.0002 39.1806C37.2064 39.1806 39.391 38.746 41.4293 37.9017C43.4676 37.0575 45.3196 35.82 46.8796 34.26C48.4396 32.6999 49.6771 30.8479 50.5214 28.8097C51.3657 26.7714 51.8002 24.5868 51.8002 22.3806C51.8002 20.1744 51.3657 17.9898 50.5214 15.9515C49.6771 13.9132 48.4396 12.0612 46.8796 10.5012C45.3196 8.94115 43.4676 7.70367 41.4293 6.85939C39.391 6.01511 37.2064 5.58057 35.0002 5.58057ZM43.7502 29.1863C43.7502 30.2556 42.8752 31.1306 41.8059 31.1306H28.1944C27.1252 31.1306 26.2502 30.2556 26.2502 29.1863V15.5748C26.2502 14.5056 27.1252 13.6306 28.1944 13.6306H41.8059C42.8752 13.6306 43.7502 14.5056 43.7502 15.5748V29.1863Z"
+                                    fill="white" />
+                            </svg>
+                        </a>
+
                     </div>
 
                     <p class="ff-rubik fw-400 fs-16 color-greyis">©2020Lasles<span
@@ -647,22 +686,22 @@
                             Product
                         </li>
                         <li class="mb-3">
-                            <a href="" class="ff-rubik fw-400 fs-18 color-grey">Download</a>
+                            <a href="" class="ff-rubik fw-400 fs-18 color-grey nav-link-hover">Download</a>
                         </li>
                         <li class="mb-3">
-                            <a href="" class="ff-rubik fw-400 fs-18 color-grey">Pricing</a>
+                            <a href="" class="ff-rubik fw-400 fs-18 color-grey nav-link-hover">Pricing</a>
                         </li>
                         <li class="mb-3">
-                            <a href="" class="ff-rubik fw-400 fs-18 color-grey">Locations</a>
+                            <a href="" class="ff-rubik fw-400 fs-18 color-grey nav-link-hover">Locations</a>
                         </li>
                         <li class="mb-3">
-                            <a href="" class="ff-rubik fw-400 fs-18 color-grey">Server</a>
+                            <a href="" class="ff-rubik fw-400 fs-18 color-grey nav-link-hover">Server</a>
                         </li>
                         <li class="mb-3">
-                            <a href="" class="ff-rubik fw-400 fs-18 color-grey">Countries</a>
+                            <a href="" class="ff-rubik fw-400 fs-18 color-grey nav-link-hover">Countries</a>
                         </li>
                         <li class="mb-3">
-                            <a href="" class="ff-rubik fw-400 fs-18 color-grey">Blog</a>
+                            <a href="" class="ff-rubik fw-400 fs-18 color-grey nav-link-hover">Blog</a>
                         </li>
                     </ul>
 
@@ -671,22 +710,22 @@
                             Engage
                         </li>
                         <li class="mb-3">
-                            <a href="" class="ff-rubik fw-400 fs-18 color-grey">LaslesVPN ?</a>
+                            <a href="" class="ff-rubik fw-400 fs-18 color-grey nav-link-hover">LaslesVPN ?</a>
                         </li>
                         <li class="mb-3">
-                            <a href="" class="ff-rubik fw-400 fs-18 color-grey">FAQ</a>
+                            <a href="" class="ff-rubik fw-400 fs-18 color-grey nav-link-hover">FAQ</a>
                         </li>
                         <li class="mb-3">
-                            <a href="" class="ff-rubik fw-400 fs-18 color-grey">Tutorials</a>
+                            <a href="" class="ff-rubik fw-400 fs-18 color-grey nav-link-hover">Tutorials</a>
                         </li>
                         <li class="mb-3">
-                            <a href="" class="ff-rubik fw-400 fs-18 color-grey">About Us</a>
+                            <a href="" class="ff-rubik fw-400 fs-18 color-grey nav-link-hover">About Us</a>
                         </li>
                         <li class="mb-3">
-                            <a href="" class="ff-rubik fw-400 fs-18 color-grey">Privacy Policy</a>
+                            <a href="" class="ff-rubik fw-400 fs-18 color-grey nav-link-hover">Privacy Policy</a>
                         </li>
                         <li class="mb-3">
-                            <a href="" class="ff-rubik fw-400 fs-18 color-grey">Terms of Service</a>
+                            <a href="" class="ff-rubik fw-400 fs-18 color-grey nav-link-hover">Terms of Service</a>
                         </li>
                     </ul>
 
@@ -695,10 +734,10 @@
                             Earn Money
                         </li>
                         <li class="mb-3">
-                            <a href="" class="ff-rubik fw-400 fs-18 color-grey">Affiliate</a>
+                            <a href="" class="ff-rubik fw-400 fs-18 color-grey nav-link-hover">Affiliate</a>
                         </li>
                         <li class="mb-3">
-                            <a href="" class="ff-rubik fw-400 fs-18 color-grey">Become Partner</a>
+                            <a href="" class="ff-rubik fw-400 fs-18 color-grey nav-link-hover">Become Partner</a>
                         </li>
                     </ul>
                 </div>

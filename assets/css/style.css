@@ -19,13 +19,13 @@
     padding: 8px 35px !important;
     border: 1px solid #F53855 !important;
     border-radius: 50px;
+    transition: all 200ms linear;
 }
 
 .btn-1:hover {
     color: #F53855 !important;
     background-color: white !important;
     box-shadow: 0px 4px 12px #F53855;
-    transition: all 200ms linear;
 }
 
 
@@ -35,13 +35,13 @@
     border: 1px solid #F53838;
     padding: 12px 50px;
     color: white;
+    transition: all 200ms linear;
 }
 
 .btn-2:hover {
     color: #F53838;
     background-color: white;
     box-shadow: 0px 4px 12px #F53838;
-    transition: all 200ms linear;
 }
 
 .circle {
@@ -122,7 +122,7 @@
 }
 
 .border-card {
-    padding: 43px 0px 43px 82px;
+    padding: 43px 0px 43px 65px;
     box-shadow: 1px 20px 40px #d3d3dc;
     border-bottom: 1px solid #FDFDFE;
     border-radius: 10px;
@@ -275,6 +275,38 @@ button:hover>svg path {
     transform: translateY(-50%);
 }
 
+.w_75 {
+    width: 75%;
+}
+
+.hover-effect:hover {
+    filter: drop-shadow(0px 10px 20px #697796);
+}
+
+.nav-link-hover:hover {
+    color: red;
+}
+
+nav ul li a {
+    position: relative;
+}
+
+nav ul li a::before {
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: -10px;
+    width: 0;
+    height: 2px;
+    background-color: #F53838;
+    transition: 0.3s ease-in-out;
+}
+
+nav ul li a:hover::before {
+    width: 100%;
+    left: 0;
+}
+
 
 @media (max-width:992px) {
     .line-1 {
@@ -283,6 +315,7 @@ button:hover>svg path {
         height: 0px;
         margin-left: -227px;
     }
+
 
     .line-2 {
         width: 337px;
@@ -300,6 +333,19 @@ button:hover>svg path {
         width: 100% !important;
         transform: unset;
     }
+
+    .border-card {
+        padding: 43px 0px 43px 0px !important;
+    }
+
+    .padding-margin {
+        padding-left: 30px !important;
+        padding-top: 20px !important;
+    }
+
+    .padding {
+        padding-left: 10px !important;
+    }
 }
 
 @media (max-width:768px) {
@@ -315,6 +361,10 @@ button:hover>svg path {
 
     .slide_box {
         padding: 20px;
+    }
+
+    .w-md-100 {
+        width: 100% !important;
     }
 
 }
